@@ -1,8 +1,0 @@
-{
-  "name": "Dream Savvy Solutions",
-  "description": "A modern, conversion-focused website for a digital solutions and training company specializing in web development, UI/UX design, and tech certifications.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}
