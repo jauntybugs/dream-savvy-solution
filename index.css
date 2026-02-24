@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 selection:bg-indigo-500/30;
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-slate-900/80 backdrop-blur-xl border-b border-white/10;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-teal-400;
+  }
+
+  .bg-gradient-mesh {
+    @apply bg-[#020617];
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(67, 56, 202, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(13, 148, 136, 0.15) 0px, transparent 50%);
+  }
+}
