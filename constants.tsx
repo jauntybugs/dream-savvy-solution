@@ -85,7 +85,7 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const CONTACT_INFO = {
-  phone: '08071172485',
+  phone: '+234 807 117 2485',
   email: 'info@designme.africa',
   address: 'Lagos, Nigeria | Global Digital Presence'
 };
