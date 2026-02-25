@@ -37,7 +37,7 @@ export const COURSES: Course[] = [
     duration: '12 Weeks',
     description: 'Master Python, SQL, and machine learning to turn raw data into actionable business intelligence.',
     level: 'Intermediate',
-    price: '$499'
+    price: '₦350,000'
   },
   {
     id: 'uiux-01',
@@ -45,7 +45,7 @@ export const COURSES: Course[] = [
     duration: '10 Weeks',
     description: 'Go from zero to pro in Figma, user research, and wireframing for world-class digital products.',
     level: 'Beginner',
-    price: '$399'
+    price: '₦200,000'
   },
   {
     id: 'pm-01',
@@ -53,7 +53,7 @@ export const COURSES: Course[] = [
     duration: '8 Weeks',
     description: 'Learn the lifecycle of product development, agile methodologies, and leadership skills.',
     level: 'Advanced',
-    price: '$450'
+    price: '₦250,000'
   },
   {
     id: 'web-01',
@@ -61,24 +61,24 @@ export const COURSES: Course[] = [
     duration: '16 Weeks',
     description: 'Comprehensive training in React, Node.js, and modern cloud infrastructure.',
     level: 'Beginner',
-    price: '$599'
+    price: '₦500,000'
   }
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    name: 'Adebayo Samuel',
-    role: 'CEO',
-    company: 'TechGrowth Nigeria',
+    name: 'Ifeanyi Aliandu',
+    role: 'Startup Founder',
+    company: 'OnCre',
     content: 'Dream Savvy Solutions transformed our online presence. Their attention to detail in UI/UX is truly world-class.',
     avatar: 'https://picsum.photos/seed/ade/200/200'
   },
   {
     id: '2',
-    name: 'Sarah Jenkins',
-    role: 'Startup Founder',
-    company: 'Lumina Apps',
+    name: 'Folasanmi Adeloye',
+    role: 'CEO',
+    company: 'Fourlar Consulting Limited',
     content: 'The web application they built for us is fast, secure, and incredibly user-friendly. Highly recommended!',
     avatar: 'https://picsum.photos/seed/sarah/200/200'
   }
