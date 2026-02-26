@@ -97,10 +97,18 @@ const Contact: React.FC = () => {
               </div>
 
               {/* Chat Support Tooltip */}
-              <div className="mt-12 p-6 rounded-2xl bg-indigo-600/10 border border-indigo-500/20 inline-flex items-center">
-                 <MessageCircle className="text-indigo-400 mr-3" />
-                 <span className="text-indigo-300 font-medium text-sm">Quick chat? Message us on WhatsApp</span>
-              </div>
+              <a 
+                href={`https://wa.me/${CONTACT_INFO.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-12 p-6 rounded-2xl bg-indigo-600/10 border border-indigo-500/20 inline-flex items-center hover:bg-indigo-600/20 transition-all group"
+              >
+                 <MessageCircle className="text-indigo-400 mr-3 group-hover:scale-110 transition-transform" />
+                 <div className="flex flex-col">
+                   <span className="text-indigo-300 font-medium text-sm">Quick chat? Message us on WhatsApp</span>
+                   <span className="text-indigo-400/60 text-xs font-bold">{CONTACT_INFO.whatsappDisplay}</span>
+                 </div>
+              </a>
             </div>
 
             {/* Form */}

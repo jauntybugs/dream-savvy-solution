@@ -68,17 +68,17 @@ export const COURSES: Course[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    name: 'Ifeanyi Aliandu',
-    role: 'Startup Founder',
-    company: 'OnCre',
+    name: 'Adebayo Samuel',
+    role: 'CEO',
+    company: 'TechGrowth Nigeria',
     content: 'Dream Savvy Solutions transformed our online presence. Their attention to detail in UI/UX is truly world-class.',
     avatar: 'https://picsum.photos/seed/ade/200/200'
   },
   {
     id: '2',
-    name: 'Folasanmi Adeloye',
-    role: 'CEO',
-    company: 'Fourlar Consulting Limited',
+    name: 'Sarah Jenkins',
+    role: 'Startup Founder',
+    company: 'Lumina Apps',
     content: 'The web application they built for us is fast, secure, and incredibly user-friendly. Highly recommended!',
     avatar: 'https://picsum.photos/seed/sarah/200/200'
   }
@@ -86,6 +86,8 @@ export const TESTIMONIALS: Testimonial[] = [
 
 export const CONTACT_INFO = {
   phone: '+234 807 117 2485',
+  whatsapp: '2348138673217',
+  whatsappDisplay: '08138673217',
   email: 'info@designme.africa',
   address: 'Lagos, Nigeria | Global Digital Presence'
 };

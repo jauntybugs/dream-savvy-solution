@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
               to="/contact"
               className="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all hover:scale-105"
             >
-              Get Started
+              Talk to Us
             </Link>
           </div>
 
@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
             to="/contact"
             className="block bg-indigo-600 text-white text-center px-5 py-3 rounded-lg font-semibold"
           >
-            Get Started
+            Talk to Us
           </Link>
         </div>
       )}

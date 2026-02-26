@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Clock, GraduationCap, TrendingUp, Users, CheckCircle } from 'lucide-react';
 import { COURSES } from '../constants';
 
@@ -53,9 +54,12 @@ const Training: React.FC = () => {
                   <div className="flex items-center justify-between mb-6">
                     <div className="text-2xl font-bold text-white">{course.price}</div>
                   </div>
-                  <button className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 rounded-xl transition-all">
+                  <Link 
+                    to="/contact" 
+                    className="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 rounded-xl transition-all block text-center"
+                  >
                     Enroll Now
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}

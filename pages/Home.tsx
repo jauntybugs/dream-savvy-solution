@@ -146,7 +146,7 @@ const Home: React.FC = () => {
               Join hundreds of companies and professionals already benefiting from our solutions.
             </p>
             <Link to="/contact" className="bg-white text-indigo-600 hover:bg-slate-100 px-10 py-5 rounded-2xl font-bold text-xl transition-all inline-flex items-center shadow-xl">
-              Get Started Now <ArrowRight className="ml-2" />
+              Talk to Us <ArrowRight className="ml-2" />
             </Link>
           </div>
         </div>
